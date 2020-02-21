@@ -9,7 +9,6 @@ class MyComponent extends Component {
                 <Layout>
                     <Header title="Portfolio" scroll>
                         <Navigation>
-                            <Link to='/landing'>Landing</Link>
                             <Link to='/about'>About</Link>
                             <Link to='/resume'>Resume</Link>
                             <Link to='/projects'>Projects</Link>
@@ -18,7 +17,6 @@ class MyComponent extends Component {
                     </Header>
                     <Drawer title="Menu">
                         <Navigation>
-                            <Link to='/landing'>Landing</Link>
                             <Link to='/about'>About</Link>
                             <Link to='/resume'>Resume</Link>
                             <Link to='/projects'>Projects</Link>
