@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Link} from "react-router-dom";
 import Main from "./src/js/components/main";
-import About from "./src/js/components/about";
 class MyComponent extends Component {
     render() {
         return (
@@ -9,18 +9,20 @@ class MyComponent extends Component {
                 <Layout>
                     <Header title="Portfolio" scroll>
                         <Navigation>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
+                            <Link to='/landing'>Landing</Link>
+                            <Link to='/about'>About</Link>
+                            <Link to='/resume'>Resume</Link>
+                            <Link to='/projects'>Projects</Link>
+                            <Link to='/contacts'>Contacts</Link>
                         </Navigation>
                     </Header>
                     <Drawer title="Menu">
                         <Navigation>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
-                            <a href="/">Link</a>
+                            <Link to='/landing'>Landing</Link>
+                            <Link to='/about'>About</Link>
+                            <Link to='/resume'>Resume</Link>
+                            <Link to='/projects'>Projects</Link>
+                            <Link to='/contacts'>Contacts</Link>
                         </Navigation>
                     </Drawer>
                     <Content>
