@@ -12,6 +12,7 @@ const PATHS = {
 
 module.exports = {
 
+    performance: { hints: false },
     externals: {
         paths: PATHS
     },
@@ -23,7 +24,7 @@ module.exports = {
     output: {
         filename: `${PATHS.assets}js/[name].[hash].js`,
         path: PATHS.dist,
-        publicPath: "/"
+        publicPath: "./"
     },
     optimization: {
         splitChunks: {
@@ -48,7 +49,7 @@ module.exports = {
                 test: /\.(png|jpg|svg|gif)$/,
                 loader: 'file-loader',
                 options: {
-                    name: '[name].[ext]'
+                    name: '/static/img/[name]-[hash].[ext]'
                 }
             },
             {
