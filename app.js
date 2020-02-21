@@ -7,16 +7,19 @@ class MyComponent extends Component {
         return (
             <div className="demo-big-content">
                 <Layout>
-                    <Header title="Portfolio" scroll>
-                        <Navigation>
-                            <Link to='/about'>About</Link>
-                            <Link to='/resume'>Resume</Link>
-                            <Link to='/projects'>Projects</Link>
-                            <Link to='/contacts'>Contacts</Link>
+                    <Header className='header' title="Portfolio" scroll>
+                        <Navigation className='header__navbar'>
+                            <Link
+                                to='/'
+                                className='header__navbar_link'
+                            >
+                                Login
+                            </Link>
                         </Navigation>
                     </Header>
                     <Drawer title="Menu">
-                        <Navigation>
+                        <Navigation className='header__navbar'>
+                            <Link exact to='/'>Home</Link>
                             <Link to='/about'>About</Link>
                             <Link to='/resume'>Resume</Link>
                             <Link to='/projects'>Projects</Link>
