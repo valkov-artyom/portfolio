@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import App from "../app";
 
 import './assets/css/main.css';
@@ -13,7 +13,7 @@ import 'react-mdl/extra/material.js';
 
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>
+    </HashRouter>
     , document.querySelector("#root"));
