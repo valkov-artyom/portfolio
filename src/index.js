@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "../app";
 
 import './assets/css/main.css';
@@ -11,4 +12,8 @@ import 'react-mdl/extra/material.js';
 
 
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+    , document.querySelector("#root"));

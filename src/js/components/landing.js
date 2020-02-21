@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-export default class Resume extends Component {
+export default class Landing extends Component {
     render() {
         return (
-            <div><h1>Resume Page</h1></div>
+            <div><h1>Main Page</h1></div>
         )
     }
 }
