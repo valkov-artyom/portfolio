@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from 'react-mdl'
-import avatar from '../../assets/img/avatar.png'
+/*import avatar from '../../assets/img/avatar.png'*/ //for production build
 
 export default class Landing extends Component {
     render() {
@@ -10,7 +10,7 @@ export default class Landing extends Component {
                 <Grid className="landing__grid">
                     <Cell col={12} className='landing__grid_cell'>
                         <img
-                            src={avatar}
+                            src='/assets/img/avatar.png'
                             alt="avatar"
                             className='landing__avatar'
                         />

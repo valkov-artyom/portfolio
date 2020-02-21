@@ -13,7 +13,7 @@ const Main = () => (
         <Route path='/portfolio/landing' component={Landing} />
         <Route path='/portfolio/resume' component={Resume} />
         <Route path='/portfolio/projects' component={Projects} />
-        <Route path='/contacts' component={Contacts} />
+        <Route path='/portfolio/contacts' component={Contacts} />
     </Switch>
 );
 
