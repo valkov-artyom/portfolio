@@ -19,7 +19,7 @@ class MyComponent extends Component {
                     </Header>
                     <Drawer title="Menu">
                         <Navigation className='header__navbar'>
-                            <Link exact to='/'>Home!!!</Link>
+                            <Link exact to='/'>Home</Link>
                             <Link to='/about'>About</Link>
                             <Link to='/resume'>Resume</Link>
                             <Link to='/projects'>Projects</Link>
