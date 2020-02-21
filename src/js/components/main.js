@@ -8,12 +8,12 @@ import Contacts from "./contacts";
 
 const Main = () => (
     <Switch>
-        <Route exact path='/portfolio' component={Landing} />
-        <Route path='/portfolio/about' component={About} />
-        <Route path='/portfolio/landing' component={Landing} />
-        <Route path='/portfolio/resume' component={Resume} />
-        <Route path='/portfolio/projects' component={Projects} />
-        <Route path='/portfolio/contacts' component={Contacts} />
+        <Route exact path='/' component={Landing} />
+        <Route path='/about' component={About} />
+        <Route path='/landing' component={Landing} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/contacts' component={Contacts} />
     </Switch>
 );
 
