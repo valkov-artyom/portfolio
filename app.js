@@ -10,7 +10,7 @@ class MyComponent extends Component {
                     <Header className='header' title="Portfolio" scroll>
                         <Navigation className='header__navbar'>
                             <Link
-                                to='/'
+                                to='/portfolio/'
                                 className='header__navbar_link'
                             >
                                 Login
@@ -19,11 +19,11 @@ class MyComponent extends Component {
                     </Header>
                     <Drawer title="Menu">
                         <Navigation className='header__navbar'>
-                            <Link exact to='/'>Home</Link>
-                            <Link to='/about'>About</Link>
-                            <Link to='/resume'>Resume</Link>
-                            <Link to='/projects'>Projects</Link>
-                            <Link to='/contacts'>Contacts</Link>
+                            <Link exact to='/portfolio/'>Home</Link>
+                            <Link to='/portfolio/about'>About</Link>
+                            <Link to='/portfolio/resume'>Resume</Link>
+                            <Link to='/portfolio/projects'>Projects</Link>
+                            <Link to='/portfolio/contacts'>Contacts</Link>
                         </Navigation>
                     </Drawer>
                     <Content>
