@@ -49,6 +49,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "react-mdl": "^2.1.0"
   }
 }
